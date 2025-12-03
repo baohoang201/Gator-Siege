@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaee176e9db46714599ed4a11e468d0b, type: 3}
+  m_Name: LevelControllerSO
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.SO.LevelControllerSO
+  _levels:
+  - {fileID: 11400000, guid: b84443c55cd994f44baff3f3bbf90ce4, type: 2}
+  - {fileID: 11400000, guid: 4311ae02f865a4b47a9ecdc6f8048b49, type: 2}
+  - {fileID: 11400000, guid: 4833a5f1139097d4d97f3af6c4c4439e, type: 2}
+  - {fileID: 11400000, guid: f42d52f28142a004c9d9ee82fe6e3c17, type: 2}
+  - {fileID: 11400000, guid: d572ca74c428e5b4cb8df2ead96522e7, type: 2}
+  - {fileID: 11400000, guid: b5d55de698b4f584dadf32ac297ae489, type: 2}

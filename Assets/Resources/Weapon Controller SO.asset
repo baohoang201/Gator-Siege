@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a394034a23ba9e9408fdddf02f2b2877, type: 3}
+  m_Name: Weapon Controller SO
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Weapon.WeaponControllerSO
+  _weapons:
+  - {fileID: 11400000, guid: 309cb0cfe42007b42b8fd331c6a8234c, type: 2}
+  - {fileID: 11400000, guid: 8f979e0f6d31616479f824c521af2a5a, type: 2}
+  - {fileID: 11400000, guid: 3659434ab26a3c442baf23a15c0b37a2, type: 2}
+  - {fileID: 11400000, guid: f5c66a35d74512140ae435902bf78977, type: 2}
+  - {fileID: 11400000, guid: 8ea2465af5571194e8269636787c8be5, type: 2}
+  - {fileID: 11400000, guid: 9a49e376b3eea124c9f79402f17b3098, type: 2}

@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1566194249856030773
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5432166929481016349}
+  m_Layer: 0
+  m_Name: Fire Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5432166929481016349
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566194249856030773}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -3.34, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2117869063401739892}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5619420292293791418
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1239148834998679827}
+  - component: {fileID: 1310193783629703547}
+  m_Layer: 0
+  m_Name: Tower 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1239148834998679827
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5619420292293791418}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7759696500813305485}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1310193783629703547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5619420292293791418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2827c81b9fd008948bb155d9cafd8acd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _head: {fileID: 2117869063401739892}
+  _firePoint: {fileID: 5432166929481016349}
+  _enemyMask:
+    serializedVersion: 2
+    m_Bits: 128
+  _headTurnSpeed: 360
+  _projectileSpeed: 40
+  _projectilePrefab: {fileID: 7897611121595836927, guid: de5dcdece793e334b92f192cffdc54b2, type: 3}
+  _explosionPrefab: {fileID: 5660200555399594080, guid: 921ef55a05f5a474886ab6a7000f4f11, type: 3}
+  _currentLevel: {fileID: 11400000, guid: 6d67d938b0b8ee34596c237ba8f993b3, type: 2}
+--- !u!1001 &7792709117615599974
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1239148834998679827}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9b80ba5ba717c184ebaaa2b44d7a162a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9b80ba5ba717c184ebaaa2b44d7a162a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9b80ba5ba717c184ebaaa2b44d7a162a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9b80ba5ba717c184ebaaa2b44d7a162a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9b80ba5ba717c184ebaaa2b44d7a162a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9b80ba5ba717c184ebaaa2b44d7a162a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9b80ba5ba717c184ebaaa2b44d7a162a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9b80ba5ba717c184ebaaa2b44d7a162a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9b80ba5ba717c184ebaaa2b44d7a162a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9b80ba5ba717c184ebaaa2b44d7a162a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9b80ba5ba717c184ebaaa2b44d7a162a, type: 3}
+      propertyPath: m_Name
+      value: Gator Siege_turret2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 8160923943674668818, guid: 9b80ba5ba717c184ebaaa2b44d7a162a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5432166929481016349}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9b80ba5ba717c184ebaaa2b44d7a162a, type: 3}
+--- !u!4 &2117869063401739892 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8160923943674668818, guid: 9b80ba5ba717c184ebaaa2b44d7a162a, type: 3}
+  m_PrefabInstance: {fileID: 7792709117615599974}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7759696500813305485 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9b80ba5ba717c184ebaaa2b44d7a162a, type: 3}
+  m_PrefabInstance: {fileID: 7792709117615599974}
+  m_PrefabAsset: {fileID: 0}

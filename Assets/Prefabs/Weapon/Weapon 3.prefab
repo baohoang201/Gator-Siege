@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4906693406725006787
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1140719585415199592}
+  m_Layer: 0
+  m_Name: Weapon 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1140719585415199592
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4906693406725006787}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6171707543980430427}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &5921378307213898672
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1140719585415199592}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 7eac60c9cb3cc6c46a974aced4a1ad56, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.158
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7eac60c9cb3cc6c46a974aced4a1ad56, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.062
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7eac60c9cb3cc6c46a974aced4a1ad56, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.799
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7eac60c9cb3cc6c46a974aced4a1ad56, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.31331903
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7eac60c9cb3cc6c46a974aced4a1ad56, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.66416526
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7eac60c9cb3cc6c46a974aced4a1ad56, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.5950335
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7eac60c9cb3cc6c46a974aced4a1ad56, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.32657433
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7eac60c9cb3cc6c46a974aced4a1ad56, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 1.578
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7eac60c9cb3cc6c46a974aced4a1ad56, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -126.199
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7eac60c9cb3cc6c46a974aced4a1ad56, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -95.484
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7eac60c9cb3cc6c46a974aced4a1ad56, type: 3}
+      propertyPath: m_Name
+      value: Gator Siege_sword2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7eac60c9cb3cc6c46a974aced4a1ad56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3833245170428708672}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7eac60c9cb3cc6c46a974aced4a1ad56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3452929536421373833}
+  m_SourcePrefab: {fileID: 100100000, guid: 7eac60c9cb3cc6c46a974aced4a1ad56, type: 3}
+--- !u!4 &6171707543980430427 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7eac60c9cb3cc6c46a974aced4a1ad56, type: 3}
+  m_PrefabInstance: {fileID: 5921378307213898672}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6840299208268648161 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7eac60c9cb3cc6c46a974aced4a1ad56, type: 3}
+  m_PrefabInstance: {fileID: 5921378307213898672}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &3833245170428708672
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6840299208268648161}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.6, z: 4.2}
+  m_Center: {x: 0, y: 0, z: 0.27}
+--- !u!114 &3452929536421373833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6840299208268648161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233269002f56e1644b30597ad3277050, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enemyLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  _damage: 10
+  _hitPrefab: {fileID: 4754259293965309935, guid: fdffe51efe2bf7b46a0fe64a7ae83003, type: 3}

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 247cce08bb457304f93dc866c646a007, type: 3}
+  m_Name: Level 6
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.SO.LevelSO
+  GroundCount: 35
+  LandCount: 8
+  WaveDatas:
+  - EnemyCount: 030000000200000001000000
+    EnemyTypes: 000000000100000002000000
+    CoinReward: 40
+  - EnemyCount: 050000000300000001000000
+    EnemyTypes: 000000000100000002000000
+    CoinReward: 50
+  - EnemyCount: 050000000200000002000000
+    EnemyTypes: 000000000100000002000000
+    CoinReward: 60
+  - EnemyCount: 050000000500000002000000
+    EnemyTypes: 000000000100000002000000
+    CoinReward: 70
+  - EnemyCount: 040000000300000003000000
+    EnemyTypes: 000000000100000002000000
+    CoinReward: 80
+  - EnemyCount: 050000000500000003000000
+    EnemyTypes: 000000000100000002000000
+    CoinReward: 90
+  - EnemyCount: 030000000300000004000000
+    EnemyTypes: 000000000100000002000000
+    CoinReward: 100
+  - EnemyCount: 050000000500000004000000
+    EnemyTypes: 000000000100000002000000
+    CoinReward: 0
+  GemReward: 250
